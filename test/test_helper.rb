@@ -1,7 +1,7 @@
 require "minitest/autorun"
 require "minitest/pride"
 require "capybara/minitest"
-require ".app/controllers/personal_site"
+require "./app/controllers/personal_site"
 
 Capybara.app = PersonalSite
 
